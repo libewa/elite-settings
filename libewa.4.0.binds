@@ -22,7 +22,7 @@
 	<YawAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.03250000" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="Keyboard" Key="Key_A" />
@@ -43,7 +43,7 @@
 	<RollAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.11237500" />
 	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -136,13 +136,13 @@
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="LogitechExtreme3DPro" Key="Joy_ZAxis" />
+		<Binding Device="LogitechExtreme3DPro" Key="Joy_UAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
-	<ThrottleRange Value="" />
+	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="LogitechExtreme3DPro" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
@@ -793,7 +793,7 @@
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_8" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_U" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
@@ -805,16 +805,16 @@
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_T" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="" />
 	<MouseTurretXDecay Value="1" />
 	<MouseTurretYMode Value="" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.11750000" />
 	</BuggyTurretYawAxisRaw>
 	<BuggyTurretYawLeftButton>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Left" />
@@ -825,7 +825,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
@@ -841,13 +841,13 @@
 	<BuggyTurretMouseDeadzone Value="0.05000000" />
 	<BuggyTurretMouseLinearity Value="1.00000000" />
 	<DriveSpeedAxis>
-		<Binding Device="LogitechExtreme3DPro" Key="Joy_ZAxis" />
+		<Binding Device="LogitechExtreme3DPro" Key="Joy_UAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</DriveSpeedAxis>
-	<BuggyThrottleRange Value="" />
+	<BuggyThrottleRange Value="Bindings_BuggyThrottleForewardOnly" />
 	<BuggyToggleReverseThrottleInput>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="LogitechExtreme3DPro" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</BuggyToggleReverseThrottleInput>
@@ -889,7 +889,7 @@
 	<ToggleCargoScoop_Buggy>
 		<Primary Device="Keyboard" Key="Key_Home" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
 		<Primary Device="Keyboard" Key="Key_B" />
@@ -943,7 +943,7 @@
 	<HeadLookToggle_Buggy>
 		<Primary Device="Mouse" Key="Mouse_3" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</HeadLookToggle_Buggy>
 	<MultiCrewToggleMode>
 		<Primary Device="Keyboard" Key="Key_F4" />
@@ -1010,7 +1010,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonFovInButton>
 	<MultiCrewCockpitUICycleForward>
-		<Primary Device="Keyboard" Key="Key_C" />
+		<Primary Device="Keyboard" Key="Key_Circumflex" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewCockpitUICycleForward>
 	<MultiCrewCockpitUICycleBackward>
@@ -1310,7 +1310,7 @@
 	<ExplorationFSSCameraPitch>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.10500000" />
 	</ExplorationFSSCameraPitch>
 	<ExplorationFSSCameraPitchIncreaseButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1323,7 +1323,7 @@
 	<ExplorationFSSCameraYaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.11500000" />
 	</ExplorationFSSCameraYaw>
 	<ExplorationFSSCameraYawIncreaseButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1351,7 +1351,7 @@
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
@@ -1393,7 +1393,7 @@
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_5" />
 		<ToggleOn Value="1" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
@@ -1412,11 +1412,11 @@
 	<SAAThirdPersonMouseXDecay Value="0" />
 	<SAAThirdPersonMouseYMode Value="" />
 	<SAAThirdPersonMouseYDecay Value="0" />
-	<SAAThirdPersonMouseSensitivity Value="30.00000000" />
+	<SAAThirdPersonMouseSensitivity Value="5.59724951" />
 	<SAAThirdPersonYawAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="1.00000000" />
 	</SAAThirdPersonYawAxisRaw>
 	<SAAThirdPersonYawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1429,7 +1429,7 @@
 	<SAAThirdPersonPitchAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="1.00000000" />
 	</SAAThirdPersonPitchAxisRaw>
 	<SAAThirdPersonPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
