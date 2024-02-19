@@ -1757,31 +1757,31 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot1>
 	<HumanoidEmoteSlot2>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot2>
 	<HumanoidEmoteSlot3>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot3>
 	<HumanoidEmoteSlot4>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot4>
 	<HumanoidEmoteSlot5>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot5>
 	<HumanoidEmoteSlot6>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot6>
 	<HumanoidEmoteSlot7>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot7>
 	<HumanoidEmoteSlot8>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidEmoteSlot8>
 </Root>
