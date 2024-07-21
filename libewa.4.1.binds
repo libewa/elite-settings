@@ -56,7 +56,7 @@
 	<PitchAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.03750000" />
+		<Deadzone Value="0.04250000" />
 	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -733,7 +733,7 @@
 	<SteeringAxis>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</SteeringAxis>
 	<SteerLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -746,7 +746,7 @@
 	<BuggyRollAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -759,7 +759,7 @@
 	<BuggyPitchAxis>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -972,7 +972,7 @@
 	<MultiCrewThirdPersonYawAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</MultiCrewThirdPersonYawAxisRaw>
 	<MultiCrewThirdPersonYawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -985,7 +985,7 @@
 	<MultiCrewThirdPersonPitchAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</MultiCrewThirdPersonPitchAxisRaw>
 	<MultiCrewThirdPersonPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1283,7 +1283,7 @@
 	<CommanderCreator_Rotation>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</CommanderCreator_Rotation>
 	<GalnetAudio_Play_Pause>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1304,7 +1304,7 @@
 	<ExplorationFSSCameraPitch>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</ExplorationFSSCameraPitch>
 	<ExplorationFSSCameraPitchIncreaseButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1317,7 +1317,7 @@
 	<ExplorationFSSCameraYaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</ExplorationFSSCameraYaw>
 	<ExplorationFSSCameraYawIncreaseButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1346,7 +1346,7 @@
 	<ExplorationFSSRadioTuningX_Raw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1410,7 +1410,7 @@
 	<SAAThirdPersonYawAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.09250000" />
+		<Deadzone Value="0.01000000" />
 	</SAAThirdPersonYawAxisRaw>
 	<SAAThirdPersonYawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1423,7 +1423,7 @@
 	<SAAThirdPersonPitchAxisRaw>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.10500000" />
+		<Deadzone Value="0.10000000" />
 	</SAAThirdPersonPitchAxisRaw>
 	<SAAThirdPersonPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1727,12 +1727,12 @@
 	<StorePitchCamera>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</StorePitchCamera>
 	<StoreYawCamera>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.04250000" />
 	</StoreYawCamera>
 	<StoreCamZoomIn>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_4" />
