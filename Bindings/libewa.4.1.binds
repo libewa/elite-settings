@@ -378,7 +378,7 @@
 		<Primary Device="Keyboard" Key="Key_U" />
 		<Secondary Device="LogitechExtreme3DPro" Key="Joy_8" />
 	</DeployHardpointToggle>
-	<DeployHardpointsOnFire Value="1" />
+	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
 		<Primary Device="Keyboard" Key="Key_Delete" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -733,7 +733,7 @@
 	<SteeringAxis>
 		<Binding Device="LogitechExtreme3DPro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.04250000" />
+		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
 	<SteerLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -776,11 +776,11 @@
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_1" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_Divide" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_2" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_Multiply" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_12" />
@@ -807,34 +807,34 @@
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_3" />
 		<Secondary Device="Keyboard" Key="Key_T" />
 	</SelectTarget_Buggy>
-	<MouseTurretXMode Value="" />
+	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
-	<MouseTurretYMode Value="" />
+	<MouseTurretYMode Value="Bindings_MousePitch" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="LogitechExtreme3DPro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.06500000" />
 	</BuggyTurretYawAxisRaw>
 	<BuggyTurretYawLeftButton>
-		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Left" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawLeftButton>
 	<BuggyTurretYawRightButton>
-		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Right" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="LogitechExtreme3DPro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.07000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
-		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Up" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretPitchUpButton>
 	<BuggyTurretPitchDownButton>
-		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Down" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretPitchDownButton>
 	<BuggyTurretMouseSensitivity Value="1.00000000" />
@@ -1010,7 +1010,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonFovInButton>
 	<MultiCrewCockpitUICycleForward>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Circumflex" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewCockpitUICycleForward>
 	<MultiCrewCockpitUICycleBackward>
@@ -1050,32 +1050,32 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenOrders>
 	<PhotoCameraToggle>
-		<Primary Device="Keyboard" Key="Key_F10" />
+		<Primary Device="Keyboard" Key="Key_Apps" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle>
 	<PhotoCameraToggle_Buggy>
-		<Primary Device="Keyboard" Key="Key_F10" />
+		<Primary Device="Keyboard" Key="Key_Apps" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle_Buggy>
 	<PhotoCameraToggle_Humanoid>
-		<Primary Device="Keyboard" Key="Key_F10" />
+		<Primary Device="Keyboard" Key="Key_Apps" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle_Humanoid>
 	<VanityCameraScrollLeft>
 		<Primary Device="Keyboard" Key="Key_LeftArrow">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollLeft>
 	<VanityCameraScrollRight>
 		<Primary Device="Keyboard" Key="Key_RightArrow">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="Keyboard" Key="Key_G">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		<Primary Device="Keyboard" Key="Key_UpArrow">
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleFreeCam>
@@ -1249,15 +1249,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuitCamera>
 	<ToggleAdvanceMode>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_B" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleAdvanceMode>
 	<FreeCamZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_V" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamZoomIn>
 	<FreeCamZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_C" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamZoomOut>
 	<FStopDec>
@@ -1361,7 +1361,7 @@
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
-	<FSSTuningSensitivity Value="1.00000000" />
+	<FSSTuningSensitivity Value="0.82171005" />
 	<ExplorationFSSDiscoveryScan>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1554,11 +1554,11 @@
 		<Deadzone Value="0.40000001" />
 	</HumanoidItemWheelButton_XAxis>
 	<HumanoidItemWheelButton_XLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_A" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_XLeft>
 	<HumanoidItemWheelButton_XRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_D" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_XRight>
 	<HumanoidItemWheelButton_YAxis>
@@ -1567,11 +1567,11 @@
 		<Deadzone Value="0.40000001" />
 	</HumanoidItemWheelButton_YAxis>
 	<HumanoidItemWheelButton_YUp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_W" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_YUp>
 	<HumanoidItemWheelButton_YDown>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_S" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_YDown>
 	<HumanoidItemWheel_AcceptMouseInput Value="1" />
@@ -1589,7 +1589,7 @@
 		<Secondary Device="Keyboard" Key="Key_G" />
 	</HumanoidThrowGrenadeButton>
 	<HumanoidMeleeButton>
-		<Primary Device="Keyboard" Key="Key_V" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Mouse" Key="Mouse_3" />
 	</HumanoidMeleeButton>
 	<HumanoidReloadButton>
@@ -1645,7 +1645,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleShieldsButton>
 	<HumanoidClearAuthorityLevel>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_V" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidClearAuthorityLevel>
 	<HumanoidHealthPack>
@@ -1719,7 +1719,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidConflictContextualUIButton>
 	<EnableMenuGroupsOnFoot Value="0" />
-	<EnableAimAssistOnFoot Value="1" />
+	<EnableAimAssistOnFoot Value="0" />
 	<StoreEnableRotation>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Mouse" Key="Mouse_3" />
