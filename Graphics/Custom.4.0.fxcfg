@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
-	<BlurEnabled>true</BlurEnabled>
-	<TerrainCheckerboardRenderingEnabled>true</TerrainCheckerboardRenderingEnabled>
+	<BlurEnabled>false</BlurEnabled>
+	<TerrainCheckerboardRenderingEnabled>false</TerrainCheckerboardRenderingEnabled>
 	<AOQuality>3</AOQuality>
 	<DOFEnabled>2</DOFEnabled>
 	<BloomQuality>3</BloomQuality>
@@ -29,6 +29,6 @@
 	<LODDistanceScale>1.000000</LODDistanceScale>
 	<HMDRenderTargetMultiplier>1.000000</HMDRenderTargetMultiplier>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
-	<GpuSchedulerMultiplier>1.000000</GpuSchedulerMultiplier>
+	<GpuSchedulerMultiplier>0.500000</GpuSchedulerMultiplier>
 	<FFXCASIntensity>0.500000</FFXCASIntensity>
 </Root>
