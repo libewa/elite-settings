@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <GraphicsOptions>
 	<Version>1</Version>
-	<PresetName>High</PresetName>
+	<PresetName>Steam Deck</PresetName>
 	<StereoscopicMode>0</StereoscopicMode>
 	<IPDAmount>0.001000</IPDAmount>
 	<AMDCrashFix>false</AMDCrashFix>
@@ -9,7 +9,7 @@
 	<HumanoidFOV>57.673920</HumanoidFOV>
 	<HighResScreenCapAntiAlias>3</HighResScreenCapAntiAlias>
 	<HighResScreenCapScale>4</HighResScreenCapScale>
-	<GammaOffset>0.888000</GammaOffset>
+	<GammaOffset>0.367680</GammaOffset>
 	<DisableGuiEffects>false</DisableGuiEffects>
 	<StereoFocalDistance>25.000000</StereoFocalDistance>
 	<StencilDump>false</StencilDump>
