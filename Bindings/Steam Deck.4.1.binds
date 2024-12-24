@@ -1100,27 +1100,21 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenOrders>
 	<PhotoCameraToggle>
-		<Primary Device="GamePad" Key="GamePad_DPadRight">
-			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Secondary>
 	</PhotoCameraToggle>
 	<PhotoCameraToggle_Buggy>
-		<Primary Device="GamePad" Key="GamePad_DPadRight">
-			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Secondary>
 	</PhotoCameraToggle_Buggy>
 	<PhotoCameraToggle_Humanoid>
-		<Primary Device="GamePad" Key="GamePad_DPadRight">
-			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
@@ -1601,7 +1595,9 @@
 		<ToggleOn Value="0" />
 	</HumanoidItemWheelButton>
 	<HumanoidEmoteWheelButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_LBumper">
+			<Hold Value="1" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HumanoidEmoteWheelButton>
